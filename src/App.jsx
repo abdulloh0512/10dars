@@ -13,9 +13,9 @@ function App() {
         name:'My Trello Board',
         bgcolor:'#069',
         list:[
-          {id:"1",title:"Bajarilishi kerak",items:[{id:"cdrFt",title:"Nimadir qilish"}]},
-          {id:"2",title:"Bajarilayotgan",items:[{id:"cdrFv",title:"Qandaydir Task"}]},
-          {id:"3",title:"Testing",items:[{id:"cdrFb",title:"Qandaydir Task 1"}]}
+          {id:"1",title:"Bajarilishi kerak",items:[{id:"cdrFt",title:"Task 1"}]},
+          {id:"2",title:"Bajarilayotgan",items:[{id:"cdrFv",title:"Task 1"}]},
+          {id:"3",title:"Tugagan",items:[{id:"cdrFb",title:"Task 1"}]}
         ]
       }
     ]
@@ -26,7 +26,7 @@ function App() {
     <>
 
     <BoardContext.Provider value={{allboard,setAllBoard}}>
-      <div className='content flex w-[100%] mx-auto'>
+      <div className='content flex w-[900px] mx-auto absolute top-[40%] left-[28%] '>
         <Main></Main>
       </div>
     </BoardContext.Provider>

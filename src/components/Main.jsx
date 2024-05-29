@@ -57,7 +57,7 @@ const Main = () => {
                   >
                     <div className="list-body">
                       <div className="flex justify-between p-1">
-                        <span>{x.title}</span>
+                        <span className="text-xl">{x.title}</span>
                         <button className="p-1 rounded-sm">
                           <MoreHorizontal size={16} />
                         </button>
